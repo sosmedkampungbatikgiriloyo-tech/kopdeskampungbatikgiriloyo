@@ -255,7 +255,7 @@ const AdminProfile = () => {
               value={namaKoperasi}
               onChange={(e) => setNamaKoperasi(e.target.value)}
               className="w-full px-3 py-2 rounded-lg border border-slate-300 font-semibold text-slate-900 focus:outline-none focus:border-primary text-xs"
-              placeholder="Contoh: Desa Kertamukti"
+              placeholder="Contoh: Kampung Batik Giriloyo"
             />
             <p className="text-[11px] text-slate-500">Akan ditampilkan sebagai bagian dari Koperasi - [Nama Daerah]</p>
           </div>
@@ -315,7 +315,7 @@ const AdminProfile = () => {
               onChange={(e) => setWilayahKerja(e.target.value)}
               className="w-full px-3 py-2 rounded-lg border border-slate-300 font-semibold text-slate-900 focus:outline-none focus:border-primary text-xs"
             />
-            <p className="text-[11px] text-slate-500">Izin Usaha Kabupaten & Lembaga Desa</p>
+            <p className="text-[11px] text-slate-500">Izin Usaha Kabupaten & Lembaga</p>
           </div>
         </div>
 

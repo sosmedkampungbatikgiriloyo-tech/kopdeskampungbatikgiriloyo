@@ -4,28 +4,28 @@ export const kopdesData = {
   // Brand & Identity
   name: "Koperasi",
   shortName: "Koperasi",
-  branchName: "Koperasi - Desa Kertamukti",
+  branchName: "Koperasi - Giriloyo",
   tagline: "Membangun Kemandirian Ekonomi Berbasis Gotong Royong",
   logo: logoImg,
   heroImage: "https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=800&q=80",
 
   // General Description
-  description: "Koperasi adalah lembaga ekonomi berbasis gotong royong yang berkomitmen mendampingi UMKM lokal serta menyediakan layanan usaha terpadu bagi warga dan anggota secara profesional, adil, dan terpercaya.",
+  description: "Koperasi Jasa Kampung Batik Giriloyo berpusat di sentra batik tulis tradisional Wukirsari, Imogiri, Bantul, Yogyakarta.",
 
   // Legal Status / Badan Hukum (2 Items)
   legal: {
     badanHukum: "AHU-0012845.AH.01.26 Tahun 2024",
-    wilayahKerja: "Desa Kertamukti, Kec. Ciasem, Kab. Subang, Jawa Barat",
+    wilayahKerja: "Kec. Imogiri, Kab. Bantul, D.I. Yogyakarta",
     statusKeanggotaan: "Terdaftar Resmi di Kementerian Koperasi & UKM RI",
   },
 
   // Vision & Mission
-  visi: "Menjadi wadah ekonomi desa yang mandiri, berdaya saing tinggi, dan berlandaskan asas kekeluargaan demi terwujudnya kesejahteraan seluruh warga desa pada tahun 2030.",
+  visi: "Menjadi wadah ekonomi yang mandiri, berdaya saing tinggi, dan berlandaskan asas kekeluargaan demi terwujudnya kesejahteraan seluruh anggota pada tahun 2030.",
   misi: [
-    "Menyediakan sarana produksi pertanian dan kebutuhan bahan pokok berkualitas dengan harga adil.",
+    "Menyediakan sarana produksi dan kebutuhan bahan baku berkualitas dengan harga adil.",
     "Mengembangkan unit simpan pinjam berbasis tata kelola sehat dan transparan.",
-    "Memberikan pendampingan manajemen dan pemasaran bagi para pelaku UMKM dan usaha lokal desa.",
-    "Membangun jaringan pemasaran langsung produk unggulan desa ke tingkat kabupaten dan nasional.",
+    "Memberikan pendampingan manajemen dan pemasaran bagi para pelaku UMKM dan usaha lokal.",
+    "Membangun jaringan pemasaran langsung produk unggulan ke tingkat kabupaten dan nasional.",
   ],
 
   // Executive Board / Struktur Pengurus (4 Key Positions)
@@ -34,7 +34,7 @@ export const kopdesData = {
       nama: "H. Suryana, S.P.",
       jabatan: "Ketua Pengurus",
       foto: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
-      pesan: "Koperasi hadir sebagai benteng ekonomi desa untuk memastikan hasil jerih payah warga kembali untuk kesejahteraan bersama."
+      pesan: "Koperasi hadir sebagai benteng ekonomi untuk memastikan hasil jerih payah warga kembali untuk kesejahteraan bersama."
     },
     sekretaris: {
       nama: "Ahmad Budiman, S.T.",
@@ -60,14 +60,14 @@ export const kopdesData = {
   layanan: [
     {
       id: "simpan-pinjam",
-      title: "Unit Simpan Pinjam Desa",
+      title: "Unit Simpan Pinjam",
       icon: "Wallet",
       description: "Layanan simpanan anggota dan pembiayaan modal kerja dengan tata kelola adil, transparan, serta tanpa biaya administrasi tersembunyi.",
       features: ["Simpanan Pokok & Wajib", "Pembiayaan Modal Usaha", "Proses Cepat & Transparan"]
     },
     {
       id: "kios-saprotan",
-      title: "Kios Saprotan & Sembako Desa",
+      title: "Kios Saprotan & Sembako",
       icon: "ShoppingBag",
       description: "Penyediaan benih unggul, pupuk resmi, pestisida, dan pasokan bahan pokok dengan harga distributor bagi anggota.",
       features: ["Harga Distributor Resmi", "Skema Bayar Panen", "Jaminan Kualitas Mutu"]
@@ -76,7 +76,7 @@ export const kopdesData = {
       id: "offtaker-panen",
       title: "Offtaker & Pemasaran Panen",
       icon: "Wheat",
-      description: "Penyerapan langsung hasil pertanian dan perkebunan warga desa untuk disalurkan ke jaringan pasar induk dan industri.",
+      description: "Penyerapan langsung hasil produksi dan perkebunan warga untuk disalurkan ke jaringan pasar induk dan industri.",
       features: ["Harga Acuan Adil", "Penimbangan Digital Jujur", "Pembayaran Tepat Waktu"]
     },
     {
@@ -90,15 +90,15 @@ export const kopdesData = {
       id: "klinik-umkm",
       title: "Pendampingan & Klinik UMKM",
       icon: "Store",
-      description: "Edukasi kemasan produk, pengurusan izin PIRT/Halal, dan pembukuan keuangan bagi pelaku usaha mikro pedesaan.",
+      description: "Edukasi kemasan produk, pengurusan izin PIRT/Halal, dan pembukuan keuangan bagi pelaku usaha mikro.",
       features: ["Pelatihan Rutin", "Fasilitasi Izin PIRT/Halal", "Konsultasi Usaha Gratis"]
     },
     {
-      id: "logistik-desa",
+      id: "logistik-unit",
       title: "Unit Distribusi & Logistik",
       icon: "Truck",
-      description: "Armada pengangkutan hasil panen dan pasokan sembako langsung dari gudang pusat ke pos-pos Dusun.",
-      features: ["Armada Pengangkut Desa", "Pengiriman Tepat Waktu", "Jangkauan Seluruh Dusun"]
+      description: "Armada pengangkutan hasil panen dan pasokan produk langsung dari gudang pusat ke pos-pos distribusi.",
+      features: ["Armada Pengangkut", "Pengiriman Tepat Waktu", "Jangkauan Luas"]
     },
     {
       id: "tabungan-berjangka",
@@ -143,8 +143,8 @@ export const kopdesData = {
     },
     {
       id: 3,
-      title: "Pelatihan Pengemasan Produk Keripik & Sambal UMKM Desa",
-      caption: "Workshop desain kemasan modern dan higienitas pangan untuk ibu-ibu pelaku UMKM Desa Kertamukti.",
+      title: "Pelatihan Pengemasan Produk Keripik & Sambal UMKM",
+      caption: "Workshop desain kemasan modern dan higienitas pangan untuk pelaku UMKM lokal.",
       mediaType: "image",
       url: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80",
       date: "10 Mei 2026"
@@ -160,7 +160,7 @@ export const kopdesData = {
     {
       id: 5,
       title: "Penyaluran Sembako Murah Bulan Ramadhan",
-      caption: "Pasokan bahan pokok murah berkualitas disalurkan langsung di balai desa untuk seluruh warga.",
+      caption: "Pasokan bahan pokok murah berkualitas disalurkan langsung di balai pertemuan untuk seluruh warga.",
       mediaType: "image",
       url: "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=800&q=80",
       date: "20 Juni 2026"
@@ -177,13 +177,13 @@ export const kopdesData = {
 
   // Contact & Location (with Google Maps Embed & Direct Link)
   kontak: {
-    alamat: "Jl. Balai Desa Kertamukti No. 01, RT 04/RW 02, Kec. Ciasem, Kab. Subang, Jawa Barat 41256",
+    alamat: "Karang Kulon RT 005, Wukirsari, Imogiri, Bantul, D.I. Yogyakarta",
     telepon: "(0260) 450-889",
     whatsapp: "+62 821-2233-4455",
     email: "info@kopdesmerahputih.id",
     jamKerja: "Senin - Sabtu: 08.00 - 15.00 WIB",
-    googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126830.07604473855!2d107.65!3d-6.35!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6945a0b7!2sDesa%20Kertamukti%2C%20Ciasem%2C%20Subang!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid",
-    googleMapsLink: "https://maps.google.com/?q=Desa+Kertamukti+Ciasem+Subang",
+    googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15809.529061611093!2d110.3951!3d-7.9152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a544b6113b2d7%3A0xb3638402eb0a9a14!2sKampung%20Batik%20Giriloyo!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid",
+    googleMapsLink: "https://maps.google.com/?q=Kampung+Batik+Giriloyo+Wukirsari+Imogiri+Bantul",
     sosialMedia: {
       facebook: "https://facebook.com",
       instagram: "https://instagram.com",

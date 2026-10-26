@@ -5,7 +5,7 @@ import { supabase } from '../config/supabaseClient';
 
 const KopdesContext = createContext();
 
-const STORAGE_KEY = 'kopdeskampungbatikgiriloyo_app_data_v2';
+const STORAGE_KEY = 'kopdeskampungbatikgiriloyo_app_data_v3';
 
 export const KopdesProvider = ({ children }) => {
   const [data, setData] = useState(() => {
@@ -55,7 +55,9 @@ export const KopdesProvider = ({ children }) => {
             ...(dbData ? {
               namaKoperasi: dbData.nama_koperasi?.trim() || prev.namaKoperasi,
               heroImage: dbData.logo_url || prev.heroImage,
-              description: dbData.deskripsi?.trim() || prev.description,
+              description: (dbData.deskripsi?.includes("1.200 perajin") || dbData.deskripsi?.includes("Berdiri dengan badan hukum resmi"))
+                ? "Koperasi Jasa Kampung Batik Giriloyo berpusat di sentra batik tulis tradisional Wukirsari, Imogiri, Bantul, Yogyakarta."
+                : (dbData.deskripsi?.trim() || prev.description),
               visi: dbData.visi?.trim() || prev.visi,
               misi: dbData.misi?.trim() || prev.misi,
               layanan: (Array.isArray(dbData.layanan_json) && dbData.layanan_json.length > 0)

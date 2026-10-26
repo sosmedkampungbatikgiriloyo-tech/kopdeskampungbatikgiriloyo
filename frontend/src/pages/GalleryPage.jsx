@@ -25,7 +25,7 @@ const GalleryPage = () => {
             Dokumentasi Aktivitas Koperasi
           </motion.h1>
           <p className="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg">
-            Kumpulan momen kebersamaan panen raya, Rapat Anggota Tahunan, serta pelatihan pemberdayaan UMKM desa.
+            Kumpulan momen kebersamaan panen raya, Rapat Anggota Tahunan, serta pelatihan pemberdayaan UMKM.
           </p>
         </div>
       </section>

@@ -67,7 +67,7 @@ const ContactPage = () => {
             Hubungi Pengurus Koperasi
           </motion.h1>
           <p className="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg">
-            Kami siap melayani kebutuhan informasi keanggotaan, pendaftaran unit layanan usaha, dan kerjasama kemitraan desa.
+            Kami siap melayani kebutuhan informasi keanggotaan, pendaftaran unit layanan usaha, dan kerjasama kemitraan.
           </p>
         </div>
       </section>

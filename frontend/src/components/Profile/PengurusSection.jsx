@@ -41,7 +41,6 @@ const PengurusSection = () => {
           subtitle="Struktur Organisasi"
           title="Struktur Pengurus & Pengawas"
           highlight="Koperasi"
-          description="Para pengemban amanah yang bertanggung jawab mengelola operasional dan mengawasi jalannya usaha koperasi."
           badge="Struktur"
         />
 

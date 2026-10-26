@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, ArrowRight, Building2, Flag } from 'lucide-react';
+import { ArrowRight, Building2, Flag } from 'lucide-react';
 import { useKopdes } from '../../context/KopdesContext';
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
 
             {/* Subtitle */}
             <p className="text-base text-slate-600 font-normal leading-relaxed max-w-2xl mb-8">
-              Selamat datang di portal layanan terpadu <strong className="text-slate-900 font-semibold">Koperasi - {kopdesData.namaKoperasi || ''}</strong>. Kunjungi portal kami untuk mendapatkan informasi lengkap seputar layanan dan kemitraan bersama kami.
+              Selamat datang di portal layanan terpadu <strong className="text-slate-900 font-semibold">Koperasi - {kopdesData.namaKoperasi || ''}</strong>.
             </p>
 
             {/* Action CTAs */}
@@ -50,13 +50,6 @@ const Hero = () => {
                 <span>Unit Layanan Usaha</span>
               </Link>
             </div>
-
-            {/* Micro Legal Info */}
-            <div className="flex items-center gap-2 pt-5 border-t border-slate-200 w-full text-xs font-semibold text-slate-600">
-              <ShieldCheck className="w-4 h-4 text-primary flex-shrink-0" />
-              <span>Badan Hukum: {kopdesData.legal?.badanHukum}</span>
-            </div>
-
           </motion.div>
 
           {/* Right Corporate Image Frame */}

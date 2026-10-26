@@ -63,7 +63,7 @@ const Gallery = () => {
           
           <SectionTitle
             subtitle="Momen Lapangan"
-            title="Dokumentasi & Aktivitas Desa"
+            title="Dokumentasi & Aktivitas"
             highlight="Terbaru"
             badge="Dokumentasi"
           />

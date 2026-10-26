@@ -40,7 +40,6 @@ const Home = () => {
             subtitle="Unit Usaha Terpadu"
             title="Layanan Utama"
             highlight="Koperasi"
-            description="Beberapa unit usaha milik Koperasi."
             badge="Unit Layanan"
           />
 

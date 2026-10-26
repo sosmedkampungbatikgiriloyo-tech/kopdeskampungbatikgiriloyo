@@ -24,7 +24,7 @@ const Products = () => {
             animate={{ opacity: 1, y: 0 }}
             className="inline-block px-4 py-1.5 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold uppercase mb-4"
           >
-            Katalog Produk Desa
+            Katalog Produk Unggulan
           </motion.span>
           <motion.h1
             initial={{ opacity: 0, y: 15 }}
@@ -35,7 +35,7 @@ const Products = () => {
             Produk Tani & Olahan Unggulan
           </motion.h1>
           <p className="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg">
-            Dukung petani lokal dan UMKM desa dengan mengonsumsi beras organik, pupuk kasgot, minyak VCO, dan madu murni.
+            Dukung perajin lokal dan UMKM dengan mengonsumsi produk kriya dan olahan berkualitas tinggi.
           </p>
         </div>
       </section>

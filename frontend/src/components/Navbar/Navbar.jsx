@@ -141,7 +141,7 @@ const Navbar = () => {
             />
             <div className="hidden sm:flex flex-col border-l border-slate-200 pl-3.5">
               <span className="font-bold text-base leading-none text-slate-900 tracking-tight">
-                KOPERASI <span className="uppercase">{kopdesData.namaKoperasi || 'Desa Anda'}</span>
+                KOPERASI <span className="uppercase">{kopdesData.namaKoperasi || ''}</span>
               </span>
               <span className="text-[11px] font-semibold text-primary uppercase tracking-wider mt-1">
                 Portal Koperasi
